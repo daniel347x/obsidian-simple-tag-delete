@@ -1,7 +1,7 @@
 {
   "id": "simple-tag-delete",
   "name": "Simple Tag Delete",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "minAppVersion": "0.15.0",
   "description": "Alt+Click tags in reading view to delete them from the note.",
   "author": "Daniel",
