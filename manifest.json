@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
-	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
-	"isDesktopOnly": false
+  "id": "simple-tag-delete",
+  "name": "Simple Tag Delete",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Alt+Click tags in reading view to delete them from the note.",
+  "author": "Daniel",
+  "authorUrl": "",
+  "fundingUrl": "",
+  "isDesktopOnly": false
 }
