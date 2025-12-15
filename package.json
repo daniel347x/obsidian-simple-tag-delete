@@ -1,6 +1,6 @@
 {
   "name": "obsidian-simple-tag-delete",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Alt+Click tags in reading view to delete them from the note.",
   "main": "main.js",
   "scripts": {

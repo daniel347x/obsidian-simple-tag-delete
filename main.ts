@@ -2,7 +2,7 @@ import { Plugin, MarkdownView } from 'obsidian';
 
 export default class SimpleTagDeletePlugin extends Plugin {
   async onload() {
-    console.log('[Simple Tag Delete] plugin loaded via BRAT');
+    console.log(`[Simple Tag Delete] v${this.manifest.version} loaded via BRAT`);
 
     // Alt+Click handler: delete only the clicked occurrence of the tag
     this.registerDomEvent(document, 'click', (evt: MouseEvent) => {
@@ -62,7 +62,7 @@ export default class SimpleTagDeletePlugin extends Plugin {
   }
 
   onunload() {
-    console.log('[Simple Tag Delete] plugin unloaded');
+    console.log(`[Simple Tag Delete] v${this.manifest.version} unloaded`);
   }
 
   /**
